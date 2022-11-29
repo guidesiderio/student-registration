@@ -17,3 +17,9 @@ lista_alunos.append(aluno3)
 notas_aluno1 = [6, 9, 8, 7]
 notas_aluno2 = [8 , 7.9, 4, 3]
 notas_aluno3 = [10 , 10, 5, 7.7]
+
+# Crie uma tupla que represente um aluno e suas notas
+
+aluno1_notas = (aluno1, notas_aluno1)
+aluno2_notas = (aluno2, notas_aluno2)
+aluno3_notas = (aluno3, notas_aluno3)
