@@ -23,3 +23,12 @@ notas_aluno3 = [10 , 10, 5, 7.7]
 aluno1_notas = (aluno1, notas_aluno1)
 aluno2_notas = (aluno2, notas_aluno2)
 aluno3_notas = (aluno3, notas_aluno3)
+
+# Crie uma lista que represente os alunos e as notas da disciplina
+
+alunos_notas = list()
+alunos_notas.append(aluno1_notas)
+alunos_notas.append(aluno2_notas)
+alunos_notas.append(aluno3_notas)
+
+
