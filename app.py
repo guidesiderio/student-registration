@@ -26,14 +26,12 @@ aluno3_notas = (aluno3, notas_aluno3)
 
 # Crie uma lista que represente os alunos e as notas da disciplina
 
-alunos_notas = list()
-alunos_notas.append(aluno1_notas)
-alunos_notas.append(aluno2_notas)
-alunos_notas.append(aluno3_notas)
+lista_notas_alunos = list()
+lista_notas_alunos.append(aluno1_notas)
+lista_notas_alunos.append(aluno2_notas)
+lista_notas_alunos.append(aluno3_notas)
 
 # Imprima os alunos com suas respectivas notas
 
-for aluno in alunos_notas:
-    print(aluno)
-
-
+for aluno in lista_notas_alunos:
+  print(f'Nome: {aluno[0][1]}, notas: {aluno[1]}')
