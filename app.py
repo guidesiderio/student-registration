@@ -31,4 +31,9 @@ alunos_notas.append(aluno1_notas)
 alunos_notas.append(aluno2_notas)
 alunos_notas.append(aluno3_notas)
 
+# Imprima os alunos com suas respectivas notas
+
+for aluno in alunos_notas:
+    print(aluno)
+
 
